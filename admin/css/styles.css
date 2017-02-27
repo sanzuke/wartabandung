@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#CCCCCC;
+}
+#clear{
+	clear:both;
+}
+input[type=submit]{
+	background-color:#F7941D;
+	border:1px solid #F7941D;
+	height:29px;
+	color:#FFF;
+	text-transform:capitalize;
+	margin:1px;
+	cursor:pointer;
+}
+#login {
+	margin:110px auto;
+	width:300px;
+	border-radius:7px 7px 0px 0px;
+	font-family:"Comic Sans MS", cursive;
+	box-shadow:5px 5px 5px #666666;
+}
+#login .header{
+	background-color:#999;
+	border-radius:7px 7px 0px 0px;
+	padding:0px 5px;
+}
+#login .frm{
+	padding:20px;
+	text-align:center;
+	background-color:#e5e5e5;
+	font-size:13px;
+	background:url(../images/login_key.gif) no-repeat top #fff;
+}
+#login input{
+	border-radius:4px;
+}
+#content{
+	background-color:#EBEBEB;
+	padding:10px 20px;
+	margin:10px auto;
+	width:966px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+#content a{
+	color:#30A4B1;
+	text-decoration:none;
+}
+#loged{
+	text-align:right;
+}
+#namaWeb{
+	font-size:28px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+#menu{
+	background-color:#464646;
+	width:966px;
+	height:36px;
+	margin-bottom:20px;
+}
+#menu ul{
+	background-color:#464646;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#menu li{
+	float:left;
+	display:inline;
+}
+#menu a{
+	padding:10px 20px;
+	background-color:#464646;
+	color:#FFFFFF;
+}
+#menu a:hover{
+	padding:10px 20px;
+	background-color:#30A4B1;
+}
+#isiKonten{
+	background-color:#FFFFFF;
+	padding:20px;
+}
+#isiKonten input[type=text]{
+	border:1px solid #e5e5e5;
+	height:24.5px;
+	font-size:14px;
+	margin:3px 0px;
+}
+#isiKonten input[type=button]{
+	background-color:#F7941D;
+	border:1px solid #F7941D;
+	height:29px;
+	color:#FFF;
+	text-transform:capitalize;
+	margin:1px;
+	cursor:pointer;
+	margin:3px 0px;
+}
+#isiKonten select{
+	border:1px solid #e5e5e5;
+	height:24.5px;
+	font-size:14px;
+	margin:3px 0px;
+}
+#isiKonten input[type=file]{
+	border:5px solid #e5e5e5;
+	height:24.5px;
+	font-size:14px;
+	margin:3px 0px;
+}
+#isiKonten textarea{
+	border:1px solid #e5e5e5;
+	font-size:14px;
+	margin:3px 0px;
+}
+#msgBox{
+	border:1px solid #e5e5e5;
+	background-color:#F7F7F7;
+	padding:8px 10px;
+}
+
+#tblShoutcut{ float:left; margin:5px; padding:5px; border:1px solid #e9e9e9; width:200px; }
+#tblShoutcut:hover { background-color:#CCC; cursor:pointer; }
+
+#formatTable table {
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #ccc;
+}
+#formatTable td{
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #ccc;
+	margin:5px 0px;
+	padding:2px;
+}
+#listKategori {
+	font-size:14px;
+}
+#listKategori label{
+	width:120px;
+	display:block;
+	float:left;
+	
+}
+#listKategori li {
+	margin:5px 0px;
+	height:15px;
+}
+#listKategori li:hover{
+	background-color:#CCC;
+	width:160px;
+}
+#frmAddKat {
+	float:right;
+	margin:0px 10px;
+	padding:10px;
+}
